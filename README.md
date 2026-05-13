@@ -5,6 +5,7 @@ Adeept Open Source Quadruped Robot is an open source intelligent robotics produc
 
 [RobotName]: Adeept Open Source Quadruped Robot Kit \
 [Item Code]: ADA039 \
+[Control Board]: https://github.com/adeept/Adeept_PiXie_Board.git \
 [Official website]:  https://www.adeept.com/  
 
 ## Getting Support or Providing Advice
