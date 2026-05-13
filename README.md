@@ -15,7 +15,7 @@ Adeept provides responsive product and technical support, including but not limi
 * Questions regarding the technology employed in our products for learning and education
 * Your input and opinions are always welcome
 
-We also encourage your ideas and suggestions for new products and product improvements
+We also encourage your ideas and suggestions for new products and product improvements.
 For any of the above, you may send us an email to:     \
 Technical support: support@adeept.com      \
 Customer Service: service@adeept.com
