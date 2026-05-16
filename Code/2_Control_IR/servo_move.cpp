@@ -39,7 +39,7 @@ void moveStop()
 }
 
 
-void moveForward() 
+void moveBackward() 
 {
   //Lift the first set of legs and step forward.
   lift_lower_Leg_L1_R2(1);
@@ -83,8 +83,7 @@ void moveForward()
   lift_lower_Leg_L2_R1(0);
 }
 
-
-void moveBackward() 
+void moveForward() 
 {
   //Lift the first set of legs and step forward.
   lift_lower_Leg_L1_R2(1);
