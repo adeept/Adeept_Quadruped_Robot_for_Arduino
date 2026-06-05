@@ -51,8 +51,8 @@ void setup()
 
   OLED_Setup();                //OLED initialization
   OLED(1, 0, 0, "www.adeept.com");
-  OLED(1, 0, 3, "WIFI:Adeept_Quadraque");
-  OLED(1, 0, 5, "d_Robot");
+  OLED(1, 0, 3, "WIFI:Adeept_ADA039");
+  OLED(1, 0, 5, "PWD:12345678");
   OLED(1, 0, 7, "IP: 192.168.4.1");
 
   Buzzer_Setup();                //Buzzer initialization
@@ -98,12 +98,12 @@ void judgement()
   else if(comdata == "4"){ // danceUpDown
     move_flag = 14;
   }
-  else if(comdata == "5"){ // dance_show
-    move_flag = 15;
-  }
-  else if(comdata.indexOf(Move_Stop)>=0){//move stop
+  else if(comdata.indexOf(Move_Stop)>=0 || comdata.indexOf("danceOff") > 0){//move stop
     move_flag = 0;
     moveStop();
+  }
+  else if(comdata.indexOf("dance") > 0){ // dance_show
+    move_flag = 15;
   }
   else if (comdata.indexOf("lightMode")>0)
   {
